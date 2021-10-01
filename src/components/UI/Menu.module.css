@@ -1,0 +1,29 @@
+.maincontainer{
+    background-color: inherit;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.subcontainer{
+    box-shadow: 10px 5px 5px rgb(5, 5, 5);
+    background-color: rgb(171, 207, 238);
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.subcontainer i{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+.widget{
+    font-size: 2rem;
+}
