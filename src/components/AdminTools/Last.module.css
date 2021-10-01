@@ -1,0 +1,47 @@
+.subcontainer {
+    background-color: rgb(129, 184, 247);
+    box-shadow: 10px 5px 5px rgb(63, 63, 63);
+    width: 30%;
+    height:100%;
+    margin: 10px 3px 0px 0px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    
+  }
+  
+  .photo {
+    height: 100px;
+    width: 100px;
+  }
+  .flex { 
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+  .flex i{
+      cursor: pointer;
+      color: rgb(0, 255, 149);
+  }
+
+
+
+  .title{
+    width: 100%;
+      font-size: 2rem;
+      height: 10%;
+      background-color: #1B3D81;
+      color: #ffff;
+      border-bottom: 1px solid #1B3D81;
+      margin-bottom: 6px;
+  }
+
+  .title h1{
+    font-size: 1rem;
+  }

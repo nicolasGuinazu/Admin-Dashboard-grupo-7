@@ -1,0 +1,25 @@
+.maincontainer{
+    margin: auto;
+    background-color: inherit;
+    width: 50%;
+    height:50%;
+}
+
+.addcontainer{
+    padding: 0.5rem;
+    margin:auto auto 10px auto;
+    background-color: rgb(66, 122, 61);
+    width: 25%;
+    height: 20%;
+  }
+
+  .addcontainer:hover{
+    background-color: rgb(67, 247, 51);
+    cursor: pointer;
+  }
+
+  .addcontainer i{
+      width: 100%;
+    color:#fff;
+    cursor: pointer;
+  }
