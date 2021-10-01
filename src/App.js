@@ -69,13 +69,13 @@ function App() {
           {!genres && (
             <div className="last">
               <Last
-                image={book}
+       
                 key={1}
                 title={"product"}
                 data={[{ title: lastProduct,image:lastProductImage }]}
               />
               <Last
-                image={user}
+      
                 key={2}
                 title={"user"}
                 data={[{ title: lastUser,image:lastUserImage }]}
