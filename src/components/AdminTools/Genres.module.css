@@ -1,0 +1,14 @@
+.container{
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.subcontainergenre{
+    background-color: khaki;
+    width: 40%;
+    margin: 3px;
+    border: 1px solid #000;
+    font-size: 5rem;
+}
