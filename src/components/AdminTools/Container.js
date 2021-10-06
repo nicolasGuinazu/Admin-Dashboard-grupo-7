@@ -5,7 +5,7 @@ import imagen from '../AdminTools/imagen.jpg'
 function Container() {
     let dummy=[{title:'prueba',image:imagen},{title:'prueba',image:imagen},{title:'prueba',image:imagen}]
     const [products,setProducts]=useState(dummy)
-    
+
      useEffect(() => {
         fetch('http://localhost:3000/api/products')
         .then(res=>res.json())
@@ -13,13 +13,14 @@ function Container() {
             setProducts(data.data.products)
         })
         .catch(err=>console.log(err))
-    }, []) 
+    }, [])
     const deleteHandler=(id)=>{
         fetch(`http://localhost:3000/products/${id}`, {
             method: 'DELETE',
             headers: {
               'Accept': 'application/json',
-              'Content-Type': 'application/json'
+              'Content-Type': 'application/json',
+              'Auth':'admin'
             }
           })
           .then(res=>res.json)
@@ -39,6 +40,6 @@ function Container() {
       </div>
       </>
     );
-  
+
 }
   export default Container;
