@@ -4,7 +4,7 @@
   width: 100%;
   border-radius: 3px;
   margin: auto auto 10px auto;
-  background-color: rgb(240, 239, 185);
+  background-color: rgb(241, 238, 53);
   padding: 3px;
   box-shadow: 10px 5px 5px rgb(165, 165, 165);
   border: 1px solid #000;
@@ -33,7 +33,7 @@
     cursor: pointer;
     color: red;
 }
-  
+
 .flex a i{
   color: green;
 }
